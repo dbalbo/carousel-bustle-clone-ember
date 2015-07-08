@@ -1,0 +1,18 @@
+<div class="container">
+  <nav class='navbar navbar-default' role='navigation'>
+    <ul class='nav navbar-nav'>
+      <li>{{#link-to 'news'}}News{{/link-to}}</li>
+      <li>{{#link-to 'news'}}Banana{{/link-to}}</li>
+      <li>{{#link-to 'news'}}Cupcake{{/link-to}}</li>
+      <li>{{#link-to 'news'}}ET{{/link-to}}</li>
+      <li>{{#link-to 'news'}}Pizza{{/link-to}}</li>
+      <li>{{#link-to 'news'}}Puppies{{/link-to}}</li>
+      <li>{{#link-to 'news'}}Queen{{/link-to}}</li>
+    </ul>
+
+      {{view "select" content=names}}
+
+    </nav>
+
+    {{outlet}}
+  </div>
